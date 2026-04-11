@@ -21,6 +21,24 @@ const List<ProjectData> projectsData = [
       appStoreUrl: 'https://apps.apple.com/in/app/sofiaiq-rust/id6739019042',
       playStoreUrl:
           'https://play.google.com/store/apps/details?id=com.preciq.sofiaiqrust&pcampaignid=web_share'),
+  // ProjectData(
+  //     title: 'SofiaIQ Dart',
+  //     subtitle: 'Educational app to learn Dart programming language',
+  //     description:
+  //         'Interactive learning platform featuring hands-on coding exercises, memory safety tutorials, quiz and performance optimization guides for Rust developers.',
+  //     imagePath: 'assets/images/sofiaiq_cover.png',
+  //     appStoreUrl: 'https://apps.apple.com/in/app/sofiaiq-rust/id6739019042',
+  //     playStoreUrl:
+  //         'https://play.google.com/store/apps/details?id=com.preciq.sofiaiqrust&pcampaignid=web_share'),
+  // ProjectData(
+  //     title: 'SofiaIQ Python',
+  //     subtitle: 'Educational app to learn Python programming language',
+  //     description:
+  //         'Interactive learning platform featuring hands-on coding exercises, memory safety tutorials, quiz and performance optimization guides for Rust developers.',
+  //     imagePath: 'assets/images/sofiaiq_cover.png',
+  //     appStoreUrl: 'https://apps.apple.com/in/app/sofiaiq-rust/id6739019042',
+  //     playStoreUrl:
+  //         'https://play.google.com/store/apps/details?id=com.preciq.sofiaiqrust&pcampaignid=web_share'),
   ProjectData(
       title: 'Invi',
       subtitle: 'Mobile app version of Invi web platform',
@@ -56,4 +74,12 @@ const List<ProjectData> projectsData = [
           'https://apps.apple.com/in/app/london-school-of-english-lse/id6745716675',
       playStoreUrl:
           'https://play.google.com/store/apps/details?id=com.ragory.lse&pcampaignid=web_share'),
+  ProjectData(
+      title: 'Meal Ghor',
+      subtitle: 'Meal management app for bachelors',
+      description:
+          'User-friendly meal planning and management app designed for bachelors, offering recipe suggestions, grocery lists, and meal scheduling features to simplify daily cooking routines.',
+      imagePath: 'assets/images/meal_pic.png',
+      playStoreUrl:
+          'https://play.google.com/store/apps/details?id=com.novice_dev.meal_ghor'),
 ];
