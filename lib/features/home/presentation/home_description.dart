@@ -77,8 +77,9 @@ class HomeDescription extends StatelessWidget {
                 GestureDetector(
                     onTap: () {
                       // For web, open the PDF in a new tab for download
+                      // https://drive.google.com/file/d/1fy8F9e9T2Q6XFmWWtlYUZAshPu6gdZOt/view?usp=sharing
                       launchUrlString(
-                        'https://drive.google.com/uc?export=download&id=1uZqR6ZUKjuv9R_aLKrkN8cwWFBG7pii9',
+                        'https://drive.google.com/uc?export=download&id=1fy8F9e9T2Q6XFmWWtlYUZAshPu6gdZOt',
                       );
                     },
                     child: Container(
