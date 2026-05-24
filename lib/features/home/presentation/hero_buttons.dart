@@ -40,7 +40,13 @@ class LargeHeroButtons extends StatelessWidget {
                 .copyWith(color: context.colorScheme.onSurface)),
         Gap(Insets.lg / 2),
         TextButton(
-            onPressed: () {},
+            onPressed: () {
+              launchUrl(
+                  Uri.parse(
+                    'https://www.linkedin.com/in/mosharop-hossain-b82112381/',
+                  ),
+                  mode: LaunchMode.externalApplication);
+            },
             child: Text(
               AppStrings.linkedin,
               style: TextStyle(
