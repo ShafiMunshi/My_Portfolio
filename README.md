@@ -12,3 +12,10 @@ git remote add origin https://github.com/ShafiMunshi/My_Portfolio.git \
 git add . \
 git commit -m "deploy" \
 git push -f origin gh-pages
+
+
+Use this command to deploy: 
+
+flutter build web --release --base-href "/My_Portfolio/"
+peanut --extra-args "--release --base-href=/My_Portfolio/"
+git push origin --set-upstream gh-pages
